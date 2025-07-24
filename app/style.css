@@ -1,0 +1,90 @@
+/* Base font and color setup */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #F7F9FC; /* Light background for contrast */
+  color: #333; /* Darker text for readability */
+}
+
+/* Header Styles */
+h1, h2 {
+  color: #0078D4; /* Saturated blue color */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.stButton > button {
+  background-color: #0078D4; /* Bright blue */
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+}
+
+.stButton > button:hover {
+  background-color: #005F9E; /* Slightly darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Input Fields */
+.stTextInput > div > input {
+  border: 1px solid #0078D4;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.stTextInput > div > input:focus {
+  border-color: #005F9E; /* Darker blue when focused */
+  box-shadow: 0 0 10px rgba(0, 87, 158, 0.5); /* Subtle glow effect */
+}
+
+/* Icon Style */
+.stButton > button .icon {
+  margin-right: 8px;
+  font-size: 18px; /* Ensure the icon is proportional */
+}
+
+.stButton > button:hover .icon {
+  transform: rotate(20deg); /* Add a little rotation on hover for fun */
+}
+
+/* Logo Styling (Assuming a logo in the header) */
+.header-logo {
+  width: 150px; /* Control logo size */
+  display: block;
+  margin: 20px auto; /* Center the logo */
+}
+
+/* Hover Effects for Links */
+a {
+  color: #0078D4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #005F9E;
+  text-decoration: underline;
+}
+
+/* Subtle shadow effects */
+.stTextInput > div {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stButton > button {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General Layout Adjustments */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

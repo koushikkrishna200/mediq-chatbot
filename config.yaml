@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    docuser:
+      name: Dr. Smart
+      password: $2b$12$J1e4.V3RPOMCF3mE1ZgWHe9KEQgLtx7IQbmv5LRK/z7hE.z1GgEZ2  # "doctor123"
+      role: doctor
+    patientuser:
+      name: John Doe
+      password: $2b$12$5kXQ4lwRY2GoJoEToMnYoecU03pbOWIP6.fGE3zACPGUJqfGclNoi  # "patient123"
+      role: patient
+
+cookie:
+  name: mediq_auth
+  key: supersecretkey
+  expiry_days: 7
+
+preauthorized:
+  emails: []
+s
